@@ -54,3 +54,9 @@ O **DynaShell** é uma ferramenta não-oficial baseada em Python para engenharia
 * **Decodificador dos bytes de Status**: [status_decoder.py](file:///c:/Projetos/Dynalogger/status_decoder.py)
 * **Extração de logs da memória Flash**: [fulldump.py](file:///c:/Projetos/Dynalogger/fulldump.py)
 * **Trigger e plot de espectro**: [spectrum.py](file:///c:/Projetos/Dynalogger/spectrum.py) e [plot_fft.py](file:///c:/Projetos/Dynalogger/plot_fft.py)
+
+## Versionamento
+- **Commits atômicos** devem ser feitos seguindo o padrão [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- **Mensagens de commit** devem ser em **Inglês**
+- Após cada sequência de alterações, gerar um novo commit e perguntar se deve fazer push.
+- Não fazer push para a branch principal, antes de cada sessão de trabalho, verificar se a branch de trabalho está atualizada em relação à branch principal com: "git pull origin main" e comunicar ao usuário. Verificar também qual branch está ativa e caso esta seja a branch principal, perguntar se deve mudar para outra branch ou criar uma nova.
